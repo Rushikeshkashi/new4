@@ -1,0 +1,716 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block 'body' %}
+
+
+  <main id="main">
+
+    <!-- Hero Section - Home Page -->
+    <section id="hero" class="hero">
+
+      <img src="{% static 'assets/img/car_img.jpg' %}" alt="" data-aos="fade-in">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10">
+            <h2 data-aos="fade-up" class="text-light" data-aos-delay="100">Welcome to Our Parking</h2>
+            <p data-aos="fade-up" data-aos-delay="200">We are managing a parking side in such manner </p>
+          </div>
+          <div class="col-lg-5">
+            <form action="#" class="sign-up-form d-flex" data-aos="fade-up" data-aos-delay="300">        
+              <input type="text" class="form-control" placeholder="Enter Name">
+              <input type="submit" class="btn btn-primary" value="Ente Name">
+            </form>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- End Hero Section -->
+
+    <!-- Clients Section - Home Page -->
+    <section id="clients" class="clients">
+
+      <div class="container-fluid" data-aos="fade-up">
+
+        <div class="row gy-4">
+
+          <div class="col-xl-2 col-md-3 col-6 client-logo">
+            <img src="{% static 'assets/img/clients/logo1_png' %}" class="img-fluid" alt="">
+          </div><!-- End Client Item -->
+
+          <div class="col-xl-2 col-md-3 col-6 client-logo">
+            <img src="{% static 'assets/img/clients/logo2_png.png' %}" class="img-fluid" alt="">
+          </div><!-- End Client Item -->
+
+          <div class="col-xl-2 col-md-3 col-6 client-logo">
+            <img src="{% static 'assets/img/clients/logo3_png.webp' %}" class="img-fluid" alt="">
+          </div><!-- End Client Item -->
+
+          <div class="col-xl-2 col-md-3 col-6 client-logo">
+            <img src="{% static 'assets/img/clients/logo4_png.jfif' %}" class="img-fluid" alt="">
+          </div><!-- End Client Item -->
+
+          <div class="col-xl-2 col-md-3 col-6 client-logo">
+            <img src="{% static 'assets/img/clients/logo5_png.png' %}" class="img-fluid" alt="">
+          </div><!-- End Client Item -->
+
+          <div class="col-xl-2 col-md-3 col-6 client-logo">
+            <img src="{% static 'assets/img/clients/logo6_png.jfif' %}" class="img-fluid" alt="">
+          </div><!-- End Client Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- End Clients Section -->
+
+    <!-- About Section - Home Page -->
+    <section id="about" class="about">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row align-items-xl-center gy-5">
+
+          <div class="col-xl-5 content">
+            <h3>Smart Parking & Authorized Solution</h3>
+            <h2>Solution</h2>
+            <p>Reach out to us today and embark on a journey of seamless parking optimization and authorized access management. Our team will collaborate with you to grasp your specific requirements and craft a customized proposal tailored to your unique needs. Your objectives are now our shared goals, as we pave the way for enhanced security, efficiency, and convenience in your parking and authorized access control operations.</p>
+            <a href="#" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+          </div>
+
+          <div class="col-xl-7">
+            <div class="row gy-4 icon-boxes">
+
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+                <div class="icon-box">
+                  <i class="bi bi-cone-striped"></i>
+                  <h3>Smart Parking Solutions</h3>
+                  <p>PARK360 brings an array of attended and unattended parking solutions for all. Whether you need a fully automated parking solution that can run without any manpower or you require a parking solution that is economical and requires some attendant, PARK360 is the best option for you. </p>
+                </div>
+              </div> <!-- End Icon Box -->
+
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                <div class="icon-box">
+                  <i class="bi bi-taxi-front-fill"></i>
+                  <h3>Authorized Access Solutions</h3>
+                  <p>Optimize and control your day-to-day traffic whether it's vehicular or people with PARK360 Authorized Access Management. We offer intelligent and robust solutions that allow organizations to automate the entire access security process and enable a seamless experience to all.</p>
+                </div>
+              </div> <!-- End Icon Box -->
+            </div>
+          </div>
+
+        </div>
+      </div>
+     
+
+    </section><!-- End About Section -->
+
+    <!-- Stats Section - Home Page -->
+    <section id="stats" class="stats" >
+
+      <img src="{% static 'assets/img/rk_img.jfif' %}"  alt="" data-aos="fade-in" height="auto" width="auto">
+
+      <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+        <h2 class="text-warning text-center ">Car Parking Management</h2>
+
+      </div>
+
+    </section><!-- End Stats Section -->
+
+    <!-- Services Section - Home Page -->
+    <section id="services" class="services">
+
+      <!--  Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2> Car Parking Services</h2>
+        <p>An efficient valet service will implement (or at least prepare) a system to handle the expected number of cars and guests. </p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item d-flex">
+              <div class="icon flex-shrink-0"><i class="bi bi-camera"></i></div>
+              <div>
+                <h4 class="title"><a href="#" class="stretched-link">ANPR Camera Based Solution</a></h4>
+                <p class="description">Automatic Number Plate Recognition (ANPR) is a highly accurate system capable of reading vehicle number plates without human intervention. When used purposefully these can be used for a variety of solutions like access control, automatic recordkeeping of vehicles in any premise, enforcing parking fees etc.</p>
+              </div>
+            </div>
+          </div>
+          <!-- End Service Item -->
+
+          <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item d-flex">
+              <div class="icon flex-shrink-0"><i class="bi bi-check-circle"></i></div>
+              <div>
+                <h4 class="title"><a href="#" class="stretched-link">
+                  Pay & Park Solution</a></h4>
+                <p class="description">This highly integrated solutions comes with specialized devices (POS, Kiosk, etc) for collecting parking fees from visitors in any premise or parking lot. Management gets real-time reports on the collection, availability of slots, etc. from anywhere right on their Smartphones.</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item d-flex">
+              <div class="icon flex-shrink-0"><i class="bi bi-qr-code"></i></div>
+              <div>
+                <h4 class="title"><a href="#" class="stretched-link">Smart QR Based Solution</a></h4>
+                <p class="description">Very effective and practical solution for owners/tenants or any pre-authorized vehicles where each one of them has their custom QR stickers. Staff or Management can scan the QR codes & contact the vehicle owners when there is a need plus non-authorized vehicles are easily identified.</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item d-flex">
+              <div class="icon flex-shrink-0"><i class="bi bi-card-checklist"></i></div>
+              <div>
+                <h4 class="title"><a href="#" class="stretched-link">UHF & RFID Card Based Solution</a></h4>
+                <p class="description">For a hassle-free and zero manpower usage access control requirement of owner/tenant/authorized vehicles movement this solutions comes fully integrated with boom barriers or other related access control systems. Breeze In or Out freely without any physical contact or staff dependency.</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="500">
+            <div class="service-item d-flex">
+              <div class="icon flex-shrink-0"><i class="bi bi-currency-exchange"></i></div>
+              <div>
+                <h4 class="title"><a href="#" class="stretched-link">Online Parking Slot Booking</a></h4>
+                <p class="description">If you have a commercial parking lot where you would want the visitors to view the availability of slots, reserve a slot by paying online or extend their parking duration all from their Smartphones, then this is a perfect solution.</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item d-flex">
+              <div class="icon flex-shrink-0"><i class="bi bi-ev-station-fill"></i></i></div>
+              <div>
+                <h4 class="title"><a href="#" class="stretched-link">Guided Parking Solution</a></h4>
+                <p class="description">For a large commercial parking space we can provide an intelligent parking solutions where you are guided every step of the way- right at the entrance, each floor, each aisle in terms of slots available, and bright occupancy indicator lights for each slot saving your time, vehicle's fuel consumption and provides you a delightful experience every time.</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- End Services Section -->
+
+    <!-- Features Section - Home Page -->
+    <section id="features" class="features">
+
+      <!--  Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Features</h2>
+        <p>An automatic parking system uses various methods to detect objects around the vehicle. Sensors installed on the front and rear bumpers can act as both a transmitter and a receiver. These sensors emit a signal that will be reflected back when it encounters an obstacle near the vehicle.</p>
+      </div><!-- End Section Title -->
+     
+
+      <div class="container">
+
+        <div class="row gy-4 align-items-center features-item">
+          <div class="col-lg-5 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+            <h3>Reliable & Secured</h3>
+            <p>
+              All of our parking solutions are designed to make the whole process reliable, predictable and enhance the existing security level of whatever your current state, process, or systems.
+            </p>
+            <a href="#" class="btn btn-get-started">Get Started</a>
+          </div>
+          <div class="col-lg-7 order-1 order-lg-2 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
+            <div class="image-stack">
+              <img src="{% static 'assets/img/resource.img' %}" alt="" class="stack-front">
+              <img src="{% static 'assets/img/resource3.img' %}" alt="" class="stack-front">
+             
+            </div>
+          </div>
+        </div><!-- Features Item -->
+
+        <div class="row gy-4 align-items-stretch justify-content-between features-item ">
+          <div class="col-lg-6 d-flex align-items-center features-img-bg" data-aos="zoom-out">
+            <img src="{% static 'assets/img/resource2.img' %}" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-5 d-flex justify-content-center flex-column" data-aos="fade-up">
+            <h3>Reduce or Eliminate Staff Dependency</h3>
+            <p>Our solutions can fully or partially eliminate the need for having multiple parking staff by leveraging a powerful and integrated hardware & software platform.</p>
+            
+            <a href="#" class="btn btn-get-started align-self-start">Get Started</a>
+          </div>
+        </div><!-- Features Item -->
+
+      </div>
+
+    </section><!-- End Features Section -->
+
+    <!-- Portfolio Section - Home Page -->
+    <section id="portfolio" class="portfolio">
+
+      <!--  Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>PARK360 Case Studies</h2>
+        <p>Check out the success stories of various projects we have completed till date. Our clients have benefited greatly with our Smart Parking Solutions in terms of eas of use, profitability, and automation.</p>
+      
+
+        </div>
+      </div><!-- End Section Title -->         
+    <!-- Faq Section - Home Page -->
+    <section id="faq" class="faq">
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="content px-xl-5">
+              <h3><span>Frequently Asked </span><strong>Questions</strong></h3>
+              <p>
+                Here are some of the most common questions we are asked. Still have a question, we are available via Call, Chat, Email whenever you need!
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="faq-container">
+              <div class="faq-item faq-active">
+                <h3><span class="num">1.</span> <span>Do you provide Parking Space for Lease?</span></h3>
+                <div class="faq-content">
+                  <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span class="num">2.</span> <span>Do you provide only the software platform?
+                </span></h3>
+                <div class="faq-content">
+                  <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span class="num">3.</span> <span>Do you provide onsite installation or support across India?</span></h3>
+                <div class="faq-content">
+                  <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span class="num">4.</span> <span>What sectors do you currently support?</span></h3>
+                <div class="faq-content">
+                  <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span class="num">5.</span> <span>What other products or services do you offer?</span></h3>
+                <div class="faq-content">
+                  <p>Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- End Faq Section -->
+
+    <!-- Team Section - Home Page -->
+    <section id="team" class="team">
+
+      <!--  Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>PARK360 Case Studies</h2>
+        <p>Check out the success stories of various projects we have completed till date. Our clients have benefited greatly with our Smart Parking Solutions in terms of eas of use, profitability, and automation.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-5">
+
+          <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="100">
+            <div class="member-img">
+              <img src="{% static 'assets/img/c3.jpg' %}" class="img-fluid" alt="">
+              <div class="social">
+                <a href="#"><i class="bi bi-twitter"></i></a>
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+            <div class="member-info text-center">
+              <h4>Raghukul Textile Market Case Study</h4>
+              <span>Learn how PARK360 helped Raghukul Textile Market</span>
+              <p>maximize revenue potential and ensure smooth operations & Tallying.</p>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="member-img">
+              <img src="{% static 'assets/img/c4.jpg' %}" class="img-fluid" alt="">
+              <div class="social">
+                <!-- <a href="//twitter.com/login?lang=en"><i class="bi bi-twitter"></i></a> -->
+                <a href="https://www.facebook.com/"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a>
+                <a href="https://in.linkedin.com/"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+            <div class="member-info text-center">
+              <h4>Gujarat Eco Tourism Case Study</h4>
+              <span>PARK360 helped Gujarat Eco Tourism digitize operations</span>
+              <p>with integrated parking and visitor management solution.</p>
+            </div>
+          </div><!-- End Team Member -->
+        </div>
+
+      </div>
+
+    </section><!-- End Team Section -->
+
+    <!-- Call-to-action Section - Home Page -->
+    <section id="call-to-action" class="call-to-action">
+
+      <img src="{% static 'assets/img/cta-bg.jpg' %}" alt="">
+
+      <div class="container">
+        <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xl-10">
+            <div class="text-center">
+              <h3>Call To Action</h3>
+              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <a class="cta-btn" href="#">Call To Action</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- End Call-to-action Section -->
+
+    <!-- Testimonials Section - Home Page -->
+    <section id="testimonials" class="testimonials">
+
+      <div class="container">
+
+        <div class="row align-items-center">
+
+          <div class="col-lg-5 info" data-aos="fade-up" data-aos-delay="100">
+            <h3>Client Testimonials</h3>
+            <p>
+              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+            </p>
+          </div>
+
+          <div class="col-lg-7" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="swiper">
+              <template class="swiper-config">
+                {
+                "loop": true,
+                "speed" : 600,
+                "autoplay": {
+                "delay": 5000
+                },
+                "slidesPerView": "auto",
+                "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+                }
+                }
+              </template>
+              <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <div class="d-flex">
+                      <img src="{% static 'assets/img/amit.jpg' %}" class="testimonial-img flex-shrink-0" alt="">
+                      <div>
+                        <h3>Amit Tikaria, Head, WCSES</h3>
+                        <h4>Bhabha Atomic Research Centre (BARC),</h4>
+                        <div class="stars">
+                          <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <p>
+                      <i class="bi bi-quote quote-icon-left"></i>
+                      <span>"The system with ANPR Cameras, Touch panel PC controls and LED based Audio-visual displays with Cloud based data management software developed by PARK360 provided elevated user experience and made the process convenient, transparent and efficient. The PARK360 Solution, their Support and Collaborative Approach has been exemplary. We look forward to working with them in the future too."</span>
+                      <i class="bi bi-quote quote-icon-right"></i>
+                    </p>
+                  </div>
+                </div><!-- End testimonial item -->
+
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <div class="d-flex">
+                      <img src="{% static 'assets/img/ashish.jpg' %}" class="testimonial-img flex-shrink-0" alt="">
+                      <div>
+                        <h3>Ashish Pradhan</h3>
+                        <h4>Sun Temple Konark</h4>
+                        <div class="stars">
+                          <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <p>
+                      <i class="bi bi-quote quote-icon-left"></i>
+                      <span>"We were earlier using the Parking Management System from a very known vendor but we had a very bad experience. We then engaged with PARK360 and I am incredibly impressed by the Ease of Use of the Parking Management Solution, Training & After Sales Support. PARK360's Smart Parking solution is truly effective and perfectly suited for all our requirements at the Sun Temple in Konark. Their Seamless and Efficient Parking Management Enhances the Visitor Experience Significantly. KUDOS to the PARK360 Team for their Outstanding Work!"</span>
+                      <i class="bi bi-quote quote-icon-right"></i>
+                    </p>
+                  </div>
+                </div><!-- End testimonial item -->
+
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <div class="d-flex">
+                      <img src="{% static 'assets/img/avjit.jpg' %}" class="testimonial-img flex-shrink-0" alt="">
+                      <div>
+                        <h3>Avijit Bhattacherjee</h3>
+                        <h4>JLL Kolkata</h4>
+                        <div class="stars">
+                          <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <p>
+                      <i class="bi bi-quote quote-icon-left"></i>
+                      <span>"We got the reference about PARK360 internally and now I understand why. The entire Sales, Demo & Training Process was conducted very professionally. I really like the Simplicity of the Parking App which can be easily used by any of my Parking Operators. Highly recommended & my best wishes to the PARK360 Team for continuing to provide Excellent Service & Support."</span>
+                      <i class="bi bi-quote quote-icon-right"></i>
+                    </p>
+                  </div>
+                </div><!-- End testimonial item -->
+
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <div class="d-flex">
+                      <img src="{% static 'assets/img/bharatbhai.jpg' %}" class="testimonial-img flex-shrink-0" alt="">
+                      <div>
+                        <h3>Bharatbhai</h3>
+                        <h4>Raghukul Textile Market</h4>
+                        <div class="stars">
+                          <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <p>
+                      <i class="bi bi-quote quote-icon-left"></i>
+                      <span>"After spending a few lakhs with my old vendor for Owner and Visitor Parking Solutions, we were facing a lot of issues like a very slow system, not reliable and almost no after sales support. I had heard about PARK360 through a close friend and we are so satisfied with them that we are asking them for more & more solutions. My monthly collections have touched 3X Growth and also daily time saving for my staff & me are at least an hour (around resolving parking issues)."</span>
+                      <i class="bi bi-quote quote-icon-right"></i>
+                    </p>
+                  </div>
+                </div><!-- End testimonial item -->
+
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <div class="d-flex">
+                      <img src="{% static 'assets/img/vinayak.jpg' %}" class="testimonial-img flex-shrink-0" alt="">
+                      <div>
+                        <h3>Vinayak Kalambate</h3>
+                        <h4>JLL Mumbai (Zillion)</h4>
+                        <div class="stars">
+                          <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <p>
+                      <i class="bi bi-quote quote-icon-left"></i>
+                      <span>"Team PARK360,
+                        Thank you for providing extraordinary support for pay&park management.
+                        I appreciate all your PARK360 team for their efforts as we got always backup support by your team.Good Work ..keep it up...</span>
+                      <i class="bi bi-quote quote-icon-right"></i>
+                    </p>
+                  </div>
+                </div><!-- End testimonial item -->
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- End Testimonials Section -->
+
+    <!-- Recent-posts Section - Home Page -->
+    <section id="recent-posts" class="recent-posts">
+
+      <!--  Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Latest Projects for PARK360</h2>
+        <p>Here are some of the locations where we helped with our Intelligent Parking Management System. These projects are just a small glimpse of our capabilities and expertise in the field of Smart Parking Management.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <article>
+
+              <div class="post-img">
+                <img src="{% static 'assets/img/pr8.jpg' %}" alt="" class="img-fluid">
+              </div>
+
+              <p class="post-category">Viceory Savavna, Mumbai</p>
+
+              <h2 class="title">
+                <a href="#">Make use of this modern public parking space will be commissinned soon naer Thakur Village</a>
+              </h2>
+
+            </article>
+          </div><!-- End post list item -->
+
+          <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <article>
+
+              <div class="post-img">
+                <img src="{% static 'assets/img/pr7.jpg' %}" alt="" class="img-fluid">
+              </div>
+
+              <p class="post-category">Kanakia Zillion, Mumbai</p>
+
+              <h2 class="title">
+                <a href="#">Mumbai (formerly called Bombay) is a densely populated city on India’s west coast. A financial center, it's India's largest city</a>
+              </h2>
+
+              
+
+            </article>
+          </div><!-- End post list item -->
+
+          <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <article>
+
+              <div class="post-img">
+                <img src="{% static 'assets/img/pr6.jpg' %}" alt="" class="img-fluid">
+              </div>
+
+              <p class="post-category">Tapadia City,Mumabai</p>
+
+              <h2 class="title">
+                <a >ffshore, nearby Elephanta Island holds ancient cave temples dedicated to the Hindu god Shiva. The city's also famous as the heart of the Bollywood film industry./a>
+              </h2>
+
+
+            </article>
+          </div><!-- End post list item -->
+
+        </div><!-- End recent posts list -->
+
+      </div>
+
+    </section><!-- End Recent-posts Section -->
+
+    <!-- Contact Section - Home Page -->
+    <section id="contact" class="contact">
+
+      <!--  Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact Us</h2>
+        <p>A better run car park is only a few moments away. IMPORTANT: This section of the website is not intended for people wanting to Pay/Appeal a Parking Charge.
+        </p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6">
+
+            <div class="row gy-4">
+              <div class="col-md-6">
+                <div class="info-item" data-aos="fade" data-aos-delay="200">
+                  <i class="bi bi-geo-alt"></i>
+                  <h3>CORPORATE HEADQUARTERS</h3>
+                  <p>myCiti 360 Technology Services Private Limited</p>
+                  <p>212, F-Block, 5th Floor SNS Interio,
+                    Near Bhatar Char Rasta, Surat - 395017
+                    </p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="col-md-6">
+                <div class="info-item" data-aos="fade" data-aos-delay="300">
+                  <i class="bi bi-telephone"></i>
+                  <h3>Call Us</h3>
+                  <p>+91 97277 00703</p>
+                  <p>+91 72289 56096
+                  </p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="col-md-6">
+                <div class="info-item" data-aos="fade" data-aos-delay="400">
+                  <i class="bi bi-envelope"></i>
+                  <h3>Email Us</h3>
+                  <p>info@PARK360.io</p>
+                  <p>support@PARK360.io</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="col-md-6">
+                <div class="info-item" data-aos="fade" data-aos-delay="500">
+                  <i class="bi bi-clock"></i>
+                  <h3>Open Hours</h3>
+                  <p>Monday - Friday</p>
+                  <p>9:00AM - 05:00PM</p>
+                </div>
+              </div><!-- End Info Item -->
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+                <h2 class="text-center">Ready to get started?</h2>
+
+                <div class="col-md-6">
+                  <input type="text" name="name"  placeholder="Your Name" required>
+                </div>
+
+                <div class="col-md-6 ">
+                  <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+                </div>
+
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+                </div>
+
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                  
+
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- End Contact Section -->
+
+  </main>
+
+ {% endblock 'body' %}
